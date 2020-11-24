@@ -20,7 +20,7 @@ class Header extends Component {
     return (
       <StyledHeader invert={invert}>
         <Link to="/" aria-label="Back to Home">
-          Frontend Developer
+          Go to home page
         </Link>
       </StyledHeader>
     )

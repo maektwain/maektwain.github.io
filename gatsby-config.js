@@ -6,7 +6,7 @@ const prismicHtmlSerializer = require('./src/gatsby/htmlSerializer')
 
 const website = require('./config/website')
 
-const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
+const pathPrefix = website.pathPrefix === '/' ? '/' : website.pathPrefix
 
 module.exports = {
   /* General Information */
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-prismic',
       options: {
-        repositoryName: 'gatsby-starter-prismic',
+        repositoryName: 'maektwain',
         accessToken: `${process.env.API_KEY}`,
         // Get the correct URLs in blog posts
         linkResolver: () => (post) => `/${post.uid}`,
