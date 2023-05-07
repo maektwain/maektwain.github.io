@@ -18,7 +18,7 @@ module.exports = {
 
   twitter: '@none', // Twitter Username
   facebook: 'none', // Facebook Site Name
-  googleAnalyticsID: 'UA-47519312-7',
+  googleAnalyticsID: 'UA-115874034-1',
 
   skipNavId: 'reach-skip-nav', // ID for the "Skip to content" a11y feature
 }
