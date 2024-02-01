@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "^6.0.1",
-    "@babel/eslint-parser": "^7.23.3",
+    "@babel/eslint-parser": "^7.23.10",
     "cross-env": "^7.0.3",
     "cypress": "^4.12.1",
     "eslint": "^6.8.0",
